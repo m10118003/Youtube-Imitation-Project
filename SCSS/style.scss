@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;  
+  }
+  // Make the total height and width of the elements includes padding and borders.
+  html,
+  body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  // Make the layout default.  
+  }
+  // Nav
+  nav {
+    .bg-orange-900 { background-color: #816258; }
+  }
+  // button_bar
+  .button_bar {
+    overflow: hidden;
+  }
+
+  // button_bar 1280px RWD
+  @media screen and (max-width: 1280px) {
+    .button_bar {
+      .saw {
+        display: none;
+      }
+      .wow {
+        display: none;
+      }
+    }
+  }
+    // button_bar 1024px RWD
+  @media screen and (max-width: 1024px) {
+    .button_bar {
+      .sport_game {
+        display: none;
+      }
+      .upload {
+        display: none;
+      }
+      .collection {
+        display: none;
+      }
+    }
+  }
+// button_bar 768px RWD
+  @media screen and (max-width: 768px) {
+    .button_bar {
+      .art {
+        display: none;
+      }
+      .live {
+        display: none;
+      }
+    }
+  }
+// button_bar 375px RWD
+  @media screen and (max-width: 375px) {
+    .button_bar {
+      .act_game {
+        display: none;
+      }
+      .pet {
+        display: none;
+      }
+      .music {
+        display: none;
+      }
+      .cook {
+        display: none;
+      }
+    }
+  }

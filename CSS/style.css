@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav .bg-orange-900 {
+  background-color: #816258;
+}
+
+.button_bar {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1280px) {
+  .button_bar .saw {
+    display: none;
+  }
+  .button_bar .wow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .button_bar .sport_game {
+    display: none;
+  }
+  .button_bar .upload {
+    display: none;
+  }
+  .button_bar .collection {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button_bar .art {
+    display: none;
+  }
+  .button_bar .live {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .button_bar .act_game {
+    display: none;
+  }
+  .button_bar .pet {
+    display: none;
+  }
+  .button_bar .music {
+    display: none;
+  }
+  .button_bar .cook {
+    display: none;
+  }
+}
